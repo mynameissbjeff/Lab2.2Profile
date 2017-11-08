@@ -62,7 +62,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
         app:srcCompat="@drawable/ic_web_black_24dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        tools:ignore="MissingConstraints,RtlHardcoded,VectorDrawableCompat" />
 
     <ImageButton
         android:id="@+id/imageButtonPhone"
@@ -75,7 +75,7 @@
         app:layout_constraintLeft_toRightOf="@+id/imageButtonWeb"
         app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
         app:srcCompat="@drawable/ic_smartphone_black_24dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        tools:ignore="MissingConstraints,RtlHardcoded,VectorDrawableCompat" />
 
     <ImageButton
         android:id="@+id/imageButtonMail"
@@ -88,7 +88,7 @@
         app:layout_constraintLeft_toRightOf="@+id/imageButtonPhone"
         app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
         app:srcCompat="@drawable/ic_mail_black_24dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        tools:ignore="MissingConstraints,RtlHardcoded,VectorDrawableCompat" />
 
     <ImageButton
         android:id="@+id/imageButtonHome"
@@ -101,7 +101,7 @@
         app:layout_constraintLeft_toRightOf="@+id/imageButtonMail"
         app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
         app:srcCompat="@drawable/ic_home_black_24dp"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+        tools:ignore="MissingConstraints,RtlHardcoded,VectorDrawableCompat" />
 
     <Button
         android:id="@+id/buttonUpdate"
